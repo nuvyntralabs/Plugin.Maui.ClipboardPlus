@@ -1,0 +1,41 @@
+# Plugin.Maui.ClipboardPlus
+
+Clipboard for .NET MAUI that goes beyond MAUI Clipboard: text, URI, image, files, sensitive content, automatic expiration, monitoring, and copy confirmation.
+
+Repository: https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus
+NuGet: https://www.nuget.org/packages/Plugin.Maui.ClipboardPlus
+Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-clipboard-plus
+Catalog: https://github.com/NiladriPadhy/MauiEssentials
+License: MIT
+
+## Supported versions
+
+net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
+
+Platforms: Android, iOS. Mac Catalyst and Windows are not primary targets.
+
+## Installation
+
+dotnet add package Plugin.Maui.ClipboardPlus
+
+Registration: `UseMauiClipboardPlus` — see README.md.
+
+## Use this project when a developer is looking for
+
+- How do I copy a password / OTP and auto-clear the clipboard in .NET MAUI?
+- MAUI clipboard image, URI, or files
+- Clipboard ContentChanged / monitoring beyond MAUI Clipboard
+- Sensitive clipboard content on Android 13+ and iOS
+
+## Do not use when
+
+- The app only needs `Clipboard.SetTextAsync` / `GetTextAsync` and MAUI already covers it
+
+## Documentation
+
+https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus
+https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus#readme
+
+## Source
+
+https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus

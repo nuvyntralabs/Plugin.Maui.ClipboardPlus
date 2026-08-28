@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plugin.Maui.ClipboardPlus.Sample.MainPage"
+             Title="ClipboardPlus">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="10">
+            <Label Text="Plugin.Maui.ClipboardPlus" FontSize="22" FontAttributes="Bold" />
+            <Label Text="Text · URI · image · files · sensitive · expiry · monitor"
+                   TextColor="Gray" />
+
+            <Label x:Name="PresenceLabel" FontSize="13" LineBreakMode="WordWrap" />
+            <Label x:Name="ConfirmationLabel" FontSize="14" FontAttributes="Bold" TextColor="{StaticResource Primary}" />
+
+            <Entry x:Name="TextEntry" Placeholder="Text to copy" Text="hello from ClipboardPlus" />
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="Copy text" Clicked="OnCopyTextClicked" />
+                <Button Text="Copy sensitive (2 min)" Clicked="OnCopySensitiveClicked" />
+            </HorizontalStackLayout>
+
+            <Entry x:Name="UriEntry" Placeholder="https://…" Text="https://niladripadhy.vercel.app/#opensource" />
+            <Button Text="Copy URI" Clicked="OnCopyUriClicked" />
+
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="Copy demo image" Clicked="OnCopyImageClicked" />
+                <Button Text="Copy demo file" Clicked="OnCopyFileClicked" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="Read clipboard" Clicked="OnReadClicked" />
+                <Button Text="Clear" Clicked="OnClearClicked" />
+            </HorizontalStackLayout>
+
+            <Label Text="Events" FontAttributes="Bold" Margin="0,12,0,0" />
+            <Label x:Name="LogLabel" FontFamily="Courier New" FontSize="12" LineBreakMode="WordWrap" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
