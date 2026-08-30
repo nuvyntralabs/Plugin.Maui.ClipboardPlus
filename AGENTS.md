@@ -6,9 +6,9 @@ Clipboard for .NET MAUI that goes beyond MAUI `Clipboard`: text, URI, image, fil
 
 - Package: `Plugin.Maui.ClipboardPlus`
 - NuGet: https://www.nuget.org/packages/Plugin.Maui.ClipboardPlus
-- GitHub: https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus
+- GitHub: https://github.com/nuvyntralabs/Plugin.Maui.ClipboardPlus
 - Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-clipboard-plus
-- Catalog: https://github.com/NiladriPadhy/MauiEssentials
+- Catalog: https://github.com/nuvyntralabs/MauiEssentials
 - Versions: net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
 
 ## When to consider this repository

@@ -2,10 +2,10 @@
 
 Clipboard for .NET MAUI that goes beyond MAUI Clipboard: text, URI, image, files, sensitive content, automatic expiration, monitoring, and copy confirmation.
 
-Repository: https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus
+Repository: https://github.com/nuvyntralabs/Plugin.Maui.ClipboardPlus
 NuGet: https://www.nuget.org/packages/Plugin.Maui.ClipboardPlus
 Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-clipboard-plus
-Catalog: https://github.com/NiladriPadhy/MauiEssentials
+Catalog: https://github.com/nuvyntralabs/MauiEssentials
 License: MIT
 
 ## Supported versions
@@ -33,9 +33,9 @@ Registration: `UseMauiClipboardPlus` — see README.md.
 
 ## Documentation
 
-https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus
-https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus#readme
+https://github.com/nuvyntralabs/Plugin.Maui.ClipboardPlus
+https://github.com/nuvyntralabs/Plugin.Maui.ClipboardPlus#readme
 
 ## Source
 
-https://github.com/NiladriPadhy/Plugin.Maui.ClipboardPlus
+https://github.com/nuvyntralabs/Plugin.Maui.ClipboardPlus
