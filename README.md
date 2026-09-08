@@ -200,7 +200,7 @@ dotnet build samples/Plugin.Maui.ClipboardPlus.Sample/Plugin.Maui.ClipboardPlus.
 dotnet pack src/Plugin.Maui.ClipboardPlus/Plugin.Maui.ClipboardPlus.csproj -c Release -o artifacts
 ```
 
-The `.nupkg` is written to `artifacts/Plugin.Maui.ClipboardPlus.1.0.0.nupkg`.
+The `.nupkg` is written to `artifacts/Plugin.Maui.ClipboardPlus.1.0.4.nupkg`.
 
 ## License
 
