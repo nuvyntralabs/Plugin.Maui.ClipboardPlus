@@ -19,7 +19,7 @@
                 <Button Text="Copy sensitive (2 min)" Clicked="OnCopySensitiveClicked" />
             </HorizontalStackLayout>
 
-            <Entry x:Name="UriEntry" Placeholder="https://…" Text="https://niladripadhy.vercel.app/#opensource" />
+            <Entry x:Name="UriEntry" Placeholder="https://…" Text="https://nuvyntralabs.github.io/" />
             <Button Text="Copy URI" Clicked="OnCopyUriClicked" />
 
             <HorizontalStackLayout Spacing="8">

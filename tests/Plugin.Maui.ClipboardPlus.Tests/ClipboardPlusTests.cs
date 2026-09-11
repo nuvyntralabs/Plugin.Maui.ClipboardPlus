@@ -23,7 +23,7 @@ public sealed class ClipboardPlusTests
     public async Task SetUriAsync_sets_has_uri()
     {
         var (clipboard, _, _) = Harness.Create();
-        var uri = new Uri("https://niladripadhy.vercel.app/#opensource");
+        var uri = new Uri("https://nuvyntralabs.github.io/");
 
         var result = await clipboard.SetUriAsync(uri);
 

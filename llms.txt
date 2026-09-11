@@ -4,7 +4,7 @@ Clipboard for .NET MAUI that goes beyond MAUI Clipboard: text, URI, image, files
 
 Repository: https://github.com/nuvyntralabs/Plugin.Maui.ClipboardPlus
 NuGet: https://www.nuget.org/packages/Plugin.Maui.ClipboardPlus
-Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-clipboard-plus
+Paper: https://nuvyntralabs.github.io/packages/plugin-maui-clipboard-plus/
 Catalog: https://github.com/nuvyntralabs/MauiEssentials
 License: MIT
 
